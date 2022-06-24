@@ -57,9 +57,9 @@ class DailyTableViewCell: UITableViewCell {
         nextWeekDaysLabel.backgroundColor = .clear
         contentView.addSubview(nextWeekDaysLabel)
         
-        let iconWidth: CGFloat = contentView.bounds.width / 8
-        let iconHeight: CGFloat = contentView.bounds.height
-        nextWeekIconsImageView.frame = nextWeekDaysLabel.frame.offsetBy(dx: daysLabelWidth * 1.1, dy: 0)
+        let iconWidth: CGFloat = contentView.bounds.height / 1.3
+        let iconHeight: CGFloat = contentView.bounds.height / 1.3
+        nextWeekIconsImageView.frame = nextWeekDaysLabel.frame.offsetBy(dx: daysLabelWidth * 1.1, dy: contentView.bounds.height / 9)
         nextWeekIconsImageView.frame.size = CGSize(width: iconWidth, height: iconHeight)
         nextWeekIconsImageView.backgroundColor = .clear
         contentView.addSubview(nextWeekIconsImageView)

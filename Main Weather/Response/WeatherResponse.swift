@@ -1,11 +1,11 @@
 // This file was generated from JSON Schema using quicktype, do not modify it directly.
 // To parse the JSON, add this file to your project and do:
 //
-//   let weatherResponse = try? newJSONDecoder().decode(WeatherResponse.self, from: jsonData)
+//   let searchResponse = try? newJSONDecoder().decode(SearchResponse.self, from: jsonData)
 
 import Foundation
 
-// MARK: - WeatherResponse
+// MARK: - SearchResponse
 struct WeatherResponse: Codable {
     let lat, lon: Double
     let timezone: String
@@ -82,7 +82,6 @@ enum Description: String, Codable {
     case brokenClouds = "broken clouds"
     case clearSky = "clear sky"
     case fewClouds = "few clouds"
-    case heavyIntensityRain = "heavy intensity rain"
     case lightRain = "light rain"
     case overcastClouds = "overcast clouds"
     case scatteredClouds = "scattered clouds"
