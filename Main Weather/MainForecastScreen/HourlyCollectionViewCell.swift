@@ -55,9 +55,9 @@ class HourlyCollectionViewCell: UICollectionViewCell {
         timeLabel.backgroundColor = .clear
         
         
-        let iconHourlyWidth: CGFloat = contentView.bounds.width / 1.7
-        let iconHourlyHeight: CGFloat = contentView.bounds.width / 1.7
-        iconHourlyImageView.frame = timeLabel.frame.offsetBy(dx: iconHourlyWidth / 5, dy: cellObjectHeight / 2)
+        let iconHourlyWidth: CGFloat = contentView.bounds.width / 2.8
+        let iconHourlyHeight: CGFloat = contentView.bounds.width / 2.8
+        iconHourlyImageView.frame = timeLabel.frame.offsetBy(dx: iconHourlyWidth / 1.6, dy: cellObjectHeight / 1.2)
         iconHourlyImageView.frame.size = CGSize(width: iconHourlyWidth, height: iconHourlyHeight)
         iconHourlyImageView.contentMode = .scaleAspectFill
         iconHourlyImageView.backgroundColor = .clear
